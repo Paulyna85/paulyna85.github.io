@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portafolio Paulina Salinas</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Paulina Salinas Espíndola</h1>
+        <p>Ingeniera en Gestión Comercial | Estuadiante de Front-end</p>
+      </header>
+
+      <section class="perfil">
+        <h2>Sobre Mí</h2>
+        <p>
+          Profesional con 15 años de experiencia en control gestión,
+          optimización de procesos y control de datos. Especialista en
+          coordinación administrativa, actualmente especializándome en
+          desarrollo Front- End, integrando especializándome en tecnologías web
+          (HTML, CSS, JS y Vue).
+        </p>
+      </section>
+
+      <section class="proyecto">
+        <h2>Proyecto Clima (API Libre)</h2>
+        <div v-if="loading">Cargando datos...</div>
+        <div v-else class="clima-info">
+          <p>Ubicación: Santiago, Chile</p>
+          <p class="temp">{{ temperatura }}°C</p>
+          <button @click="consultarClima">Actualizar</button>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
