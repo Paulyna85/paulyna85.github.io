@@ -2,14 +2,24 @@
 
 Bienvenido a mi repositorio personal. Soy Ingeniera en Gestión Comercial y actualmente me encuentro cursando un programa de formación en Desarrollo Front-end.
 
-## 🚀 Sobre este proyecto
-Este portafolio es mi primera entrega oficial utilizando tecnologías web modernas. El objetivo es demostrar la integración de lógica comercial con habilidades técnicas de programación.
+# `Paulina Salinas Espíndola`
 
-### Tecnologías utilizadas:
-*   **HTML5 / CSS3**: Estructura y diseño responsivo.
-*   **JavaScript (ES6+)**: Lógica de programación.
-*   **Vue.js 3**: Framework utilizado para la interactividad.
-*   **API Pública (7Timer)**: Consumo de datos meteorológicos reales.
+### `// Ing. Gestión Comercial & Front-End Dev`
+
+> *"Construyendo puentes entre la lógica de negocio y la experiencia digital."*
+
+---
+
+### 🧩 Core Skills Matrix
+
+```javascript
+const paulina = {
+  profession: "Ingeniera Comercial",
+  specialization: "Desarrollo Frontend",
+  experience: ["Administrativa", "Comercial", "Contable", "Coordinación"],
+  stack: ["Vue.js", "JavaScript ES6+", "Sass", "Bootstrap", "HTML/CSS"],
+  focus: ["User Experience", "Business Analytics", "Process Optimization"]
+};
 
 ## 🔗 Enlace al proyecto
 Puedes ver el portafolio en vivo aquí: [https://github.io](https://github.io)
